@@ -1,0 +1,41 @@
+# Django-specific
+*.pyc
+__pycache__/
+db.sqlite3
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE/Editor specific
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts
+dist/
+build/
+
+# Local settings
+local_settings.py
+
+# Media files (if you're storing user uploads)
+media/
+
+# macOS-specific
+.DS_Store
+
+# PyCharm specific
+.coverage
+
+# General temporary files
+*~
+
+# System-specific temporary files
+.#*
+Thumbs.db
+
+djangomodeltranslations/main/static/admin/
